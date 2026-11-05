@@ -1,520 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
-  <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>GroupAssistBench | One Assistant, Many Memories</title>
+  <meta name="description" content="GroupAssistBench evaluates whether agent memory can move beyond recall to useful, open-ended assistance in real-world multi-party group chats." />
+  <meta name="keywords" content="GroupAssistBench, Agent Memory, Group Assistance, Benchmark, Multi-party Conversations, Memory Recall, Memory Use, LLM Agents, Rubric Evaluation" />
+  <meta name="author" content="Zhanghao Hu, Linhai Zhang, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="canonical" href="https://zhanghao-groupassisbench.github.io/Academic-project-page-template/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;800&display=swap" rel="stylesheet" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="GroupAssistBench" />
+  <meta property="og:title" content="One Assistant, Many Memories: GroupAssistBench" />
+  <meta property="og:description" content="A real-world group-chat benchmark of agent memory recall and open-ended memory use." />
+  <meta property="og:url" content="https://zhanghao-groupassisbench.github.io/Academic-project-page-template/" />
+  <meta property="og:image" content="https://zhanghao-groupassisbench.github.io/Academic-project-page-template/static/images/figure1_overview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GroupAssistBench: From Remembering to Serving" />
+  <meta name="twitter:description" content="Does recalling group history translate into effective group assistance?" />
+  <meta name="twitter:image" content="https://zhanghao-groupassisbench.github.io/Academic-project-page-template/static/images/figure1_overview.png" />
+  <meta name="citation_title" content="One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough" />
+  <meta name="citation_author" content="Hu, Zhanghao" />
+  <meta name="citation_author" content="Zhang, Linhai" />
+  <meta name="citation_author" content="Zhao, Qian" />
+  <meta name="citation_author" content="Zhu, Qi" />
+  <meta name="citation_author" content="Hua, Yuan" />
+  <meta name="citation_author" content="Liang, Di" />
+  <meta name="citation_author" content="Si, Jiasheng" />
+  <meta name="citation_author" content="Zhao, Xin" />
+  <meta name="citation_author" content="He, Yulan" />
+  <meta name="citation_author" content="Chen, Zhumin" />
+  <meta name="citation_author" content="Gui, Lin" />
+  <meta name="citation_date" content="2026/11/03" />
+  <meta name="citation_arxiv_id" content="2611.04867" />
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2611.04867" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
+    "name": "One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough",
+    "datePublished": "2026-11-03",
+    "url": "https://arxiv.org/abs/2611.04867",
+    "sameAs": "https://doi.org/10.48550/arXiv.2611.04867",
+    "mainEntityOfPage": "https://zhanghao-groupassisbench.github.io/Academic-project-page-template/",
+    "author": [{"@type":"Person","name":"Zhanghao Hu"},{"@type":"Person","name":"Linhai Zhang"},{"@type":"Person","name":"Qian Zhao"},{"@type":"Person","name":"Qi Zhu"},{"@type":"Person","name":"Yuan Hua"},{"@type":"Person","name":"Di Liang"},{"@type":"Person","name":"Jiasheng Si"},{"@type":"Person","name":"Xin Zhao"},{"@type":"Person","name":"Yulan He"},{"@type":"Person","name":"Zhumin Chen"},{"@type":"Person","name":"Lin Gui"}],
+    "description": "A benchmark based on real-world group conversations for evaluating memory recall and memory use in open-ended group assistance."
   }
   </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+  <style>
+    :root {
+      --ink: #1c2536;
+      --muted: #66738a;
+      --blue: #2559b5;
+      --blue-bg: #eef5ff;
+      --purple: #6555c6;
+      --purple-bg: #f3f0ff;
+      --border: #e4eaf2;
+      --surface: #f8fafd;
+      --green: #27826a;
+      --green-bg: #eff9f4;
+      --max: 1050px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 83px; }
+    body { margin: 0; color: var(--ink); font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.65; background: #fff; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #76a7f6; outline-offset: 3px; }
+    .container { width: min(var(--max), calc(100% - 44px)); margin: 0 auto; }
+    .nav { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--border); backdrop-filter: blur(13px); }
+    .nav-inner { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { font-size: 16px; font-weight: 800; letter-spacing: -.45px; color: var(--ink); white-space: nowrap; }
+    .brand .accent { color: var(--blue); }
+    .nav-links { display:flex; gap: 24px; align-items:center; font-size: 13px; font-weight: 650; white-space: nowrap; }
+    .nav-links a { color: #526079; }
+    .nav-links a:hover { color: var(--blue); text-decoration:none; }
+    main section { scroll-margin-top: 83px; }
+    .hero { padding: 76px 0 60px; text-align: center; background: radial-gradient(ellipse at 50% -35%, #eef4ff 0, #fff 64%); }
+    .eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 1.6px; font-weight: 800; color: var(--blue); }
+    h1 { max-width: 980px; margin: 18px auto 16px; font-size: clamp(27px, 4.3vw, 43px); line-height: 1.20; letter-spacing: -1.45px; font-weight: 800; }
+    .subtitle { font-size: clamp(17px, 2vw, 20px); color: #44516b; font-weight: 500; line-height: 1.5; max-width: 860px; margin: 0 auto 28px; }
+    .authors { font-size: 15px; line-height: 2.1; max-width: 960px; margin: 20px auto 8px; }
+    .authors span { display:inline-block; margin: 0 4px; white-space:nowrap; }
+    .authors sup { font-size: 10px; color:var(--muted); margin-left:1px; }
+    .affiliations { color: #546177; max-width: 900px; margin: 10px auto 0; font-size: 13px; }
+    .affiliations span { display:inline-block; margin:0 8px; }
+    .author-notes { color:#8490a1; font-size:12px; margin:8px auto 28px; }
+    .buttons { display:flex; gap: 10px; flex-wrap:wrap; justify-content:center; }
+    .btn { display: inline-flex; justify-content: center; align-items:center; gap: 8px; border-radius: 999px; padding: 10px 19px; background: #253248; color: #fff; font-size: 13px; font-weight: 700; border: 1px solid #253248; transition: transform .2s, box-shadow .2s; }
+    .btn:hover { color:#fff; text-decoration:none; box-shadow:0 7px 20px rgba(37,50,72,.15); transform:translateY(-1px); }
+    .btn-secondary { background:#fff; color:#27364c; border-color:#dce4ef; }
+    .btn-secondary:hover { color:var(--blue); }
+    .btn-disabled { color:#828d9d; background:#f3f5f9; border-color:#e3e8f0; cursor:default; }
+    .btn-disabled:hover { color:#828d9d; box-shadow:none; transform:none; }
+    .hero-question { margin: 40px auto 0; padding: 23px 30px; max-width: 850px; border-left: 4px solid #6596e9; background: var(--blue-bg); border-radius: 8px; text-align:left; }
+    .hero-question strong { color:#234c92; font-size:18px; }
+    .hero-question p { margin:5px 0 0; color:#465a78; font-size:15px; }
+    section.content-section { padding: 58px 0; border-top:1px solid #eff2f6; }
+    .section-muted { background:#fbfcfe; }
+    .section-title { margin: 0 0 13px; text-align: center; font-size: clamp(24px, 3vw, 30px); letter-spacing:-.75px; line-height:1.25; }
+    .section-lead { color:var(--muted); max-width:750px; margin: 0 auto 31px; text-align:center; font-size:15px; }
+    .mini-label { text-transform:uppercase; letter-spacing:1.2px; font-weight:750; font-size:11px; color:var(--blue); text-align:center; margin-bottom:10px; }
+    .figure { margin: 22px auto 0; }
+    .figure img { display:block; width:100%; height:auto; border:1px solid #e3e8f0; border-radius: 10px; background:#fff; }
+    .figure figcaption { text-align:center; font-size:12px; color:#7b8799; margin-top:10px; line-height:1.55; }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:13px; margin: 30px 0 0; }
+    .stat { border:1px solid var(--border); border-radius: 12px; background:#fff; padding:19px 9px; text-align:center; }
+    .stat-value { color:var(--blue); font-size:clamp(23px,3.2vw,32px); font-weight:800; letter-spacing:-1px; line-height:1.15; }
+    .stat-name { color:#61708a; font-size:12px; margin-top:5px; font-weight:550; }
+    .prose { max-width: 870px; margin:0 auto; font-size:15px; color:#465166; text-align:justify; }
+    .prose p { margin:0; }
+    .callout { border-left: 3px solid #8b79d5; background: var(--purple-bg); padding:15px 19px; border-radius:7px; max-width:870px; margin: 22px auto 0; color:#51457f; font-size:14px; }
+    .taxonomy { display:grid; grid-template-columns: 130px repeat(3,1fr); gap:8px; margin:22px auto 0; max-width: 900px; }
+    .tax-head, .tax-cell, .tax-side { border:1px solid var(--border); border-radius:9px; padding: 18px 12px; }
+    .tax-head { text-align:center; background:#eef4fd; color:#285696; font-weight:750; font-size:14px; }
+    .tax-head small { display:block; color:#7383a0; font-weight:500; font-size:11px; margin-top:2px; }
+    .tax-corner { background:transparent; border:0; }
+    .tax-side { display:flex; flex-direction:column; align-items:center; justify-content:center; background:#f5f7fb; text-align:center; font-size:16px; font-weight:750; }
+    .tax-side small { font-size:12px; color:#66758c; font-weight:500; }
+    .tax-side.l2 { background:#f3efff; color:#5849a5; }
+    .tax-cell { text-align:center; background:#fff; }
+    .tax-cell.l2 { background:#fcfaff; border-color:#e8e1fb; }
+    .tax-count { font-size:25px; font-weight:800; letter-spacing:-.7px; color:#263b61; }
+    .tax-cell.l2 .tax-count { color:#6653b7; }
+    .tax-caption { color:#768398; font-size:12px; margin-top:2px; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .card { padding:21px 20px; border:1px solid var(--border); border-radius:12px; background:#fff; }
+    .card-tag { color: var(--blue); font-weight:800; letter-spacing: .9px; font-size:11px; }
+    .card h3 { font-size:16px; letter-spacing:-.25px; margin: 8px 0; }
+    .card p { font-size:13px; line-height:1.65; color:#66748a; margin:0; }
+    .comparison { width:100%; border-collapse:collapse; margin: 24px 0 5px; font-size:14px; }
+    .comparison th, .comparison td { text-align:left; border-bottom:1px solid #e8ecf3; padding: 12px 15px; }
+    .comparison thead th { background:#f3f6fb; color:#3d4d64; font-size:12px; font-weight:800; }
+    .comparison tbody tr:hover { background:#fafcff; }
+    .comparison td.num, .comparison th.num { text-align:center; font-variant-numeric:tabular-nums; }
+    .comparison .selected { background:#f3f7ff; }
+    .comparison strong { font-weight:800; }
+    .table-note { color:#8490a2; font-size:12px; margin-top:10px; line-height:1.6; }
+    .two-findings { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px; }
+    .finding { background:#fff; border:1px solid var(--border); border-radius:12px; padding:24px; }
+    .finding .number { font-size:32px; color:var(--blue); letter-spacing:-1px; font-weight:800; line-height:1; }
+    .finding h3 { margin:10px 0 7px; font-size:16px; }
+    .finding p { color:#66748a; font-size:13px; margin:0; }
+    .methods { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:25px 0; }
+    .method { border:1px solid var(--border); border-radius:12px; padding:22px 23px; }
+    .method small { color:var(--blue); font-weight:800; letter-spacing:.8px; }
+    .method h3 { margin:6px 0 8px; font-size:17px; }
+    .method p { margin:0; font-size:13px; color:#64748b; }
+    .method:nth-child(2) small { color:var(--purple); }
+    .gain-strip { border:1px solid #cde8dc; border-radius:10px; background:var(--green-bg); padding:18px; color:#286e59; font-size:14px; text-align:center; }
+    .gain-strip strong { font-size:18px; }
+    .availability { max-width:900px; padding:20px 24px; margin:auto; border:1px solid var(--border); border-radius:12px; background:var(--surface); font-size:14px; color:#627087; }
+    .availability strong { color:#324257; }
+    .availability p { margin:0; }
+    .availability p + p { margin-top:11px; }
+    .bib-head { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:15px; }
+    .bib-head h2 { margin:0; text-align:left; }
+    .copy-button { border:1px solid #dbe3ed; background:#fff; border-radius:8px; padding:8px 14px; font-family:inherit; font-size:12px; cursor:pointer; color:#3b4b63; font-weight:750; }
+    .copy-button:hover { background:#f2f6ff; color:var(--blue); }
+    pre { margin:0; border:1px solid #e1e8f1; border-radius:10px; background:#f7f9fc; padding:22px; white-space:pre-wrap; overflow-x:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; color:#354156; line-height:1.65; }
+    footer { background:#f8fafc; padding:28px 0; border-top:1px solid var(--border); font-size:12px; color:#8690a0; text-align:center; }
+    footer p { margin:4px 0; }
+    @media (max-width: 750px) {
+      .nav-links { gap:13px; font-size:11px; overflow-x:auto; }
+      .nav-inner { flex-wrap:wrap; justify-content:center; padding:10px 0; }
+      .hero { padding:45px 0 42px; }
+      .container { width:min(var(--max),calc(100% - 28px)); }
+      section.content-section { padding:45px 0; }
+      .stats { grid-template-columns:repeat(2,1fr); }
+      .cards { grid-template-columns:1fr; }
+      .two-findings, .methods { grid-template-columns:1fr; }
+      .taxonomy { grid-template-columns:78px repeat(3,minmax(0,1fr)); gap:4px; }
+      .tax-head, .tax-cell, .tax-side { padding:11px 4px; border-radius:6px; }
+      .tax-head { font-size:12px; }
+      .tax-head small { font-size:9px; }
+      .tax-side { font-size:12px; }
+      .tax-side small { font-size:10px; }
+      .tax-count { font-size:20px; }
+      .tax-caption { font-size:10px; }
+      .comparison { font-size:12px; }
+      .comparison th, .comparison td { padding:10px 6px; }
+      .hero-question { padding:17px 18px; }
+      .hero-question strong { font-size:15px; }
+      .prose { text-align:left; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } .btn { transition:none; } }
+  </style>
 </head>
-<body>
-
-
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
-
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
+<body id="top">
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Group<span class="accent">Assist</span>Bench</a>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#results">Results</a>
+        <a href="#insights">Insights</a>
+        <a href="#bibtex">Citation</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">GroupAssistBench · arXiv 2026</div>
+        <h1>One Assistant, Many Memories:<br />Benchmarking Real-World Group Assistance When Recall Is Not Enough</h1>
+        <p class="subtitle">From remembering group conversations to serving the group.</p>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+        <div class="authors">
+          <span><a href="https://hu-xiaobai.github.io/" target="_blank" rel="noopener">Zhanghao Hu</a><sup>1,2,*</sup>,</span>
+          <span>Linhai Zhang<sup>2,*</sup>,</span>
+          <span>Qian Zhao<sup>1</sup>,</span>
+          <span>Qi Zhu<sup>1</sup>,</span>
+          <span>Yuan Hua<sup>1</sup>,</span>
+          <span>Di Liang<sup>1</sup>,</span>
+          <span>Jiasheng Si<sup>3</sup>,</span>
+          <span>Xin Zhao<sup>4</sup>,</span>
+          <span><a href="https://sites.google.com/view/yulanhe" target="_blank" rel="noopener">Yulan He</a><sup>2</sup>,</span>
+          <span>Zhumin Chen<sup>5,†</sup>,</span>
+          <span><a href="https://sites.google.com/view/lin-gui/about-me" target="_blank" rel="noopener">Lin Gui</a><sup>2,†</sup></span>
+        </div>
+        <div class="affiliations">
+          <span><sup>1</sup> Tencent Yuanbao Team</span>
+          <span><sup>2</sup> King's College London</span>
+          <span><sup>3</sup> Qilu University of Technology</span>
+          <span><sup>4</sup> Renmin University of China</span>
+          <span><sup>5</sup> Shandong University</span>
+        </div>
+        <p class="author-notes">* Equal contribution &nbsp;·&nbsp; † Corresponding authors</p>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
-          </div>
+        <div class="buttons" aria-label="Paper resources">
+          <a class="btn" href="https://arxiv.org/abs/2611.04867" target="_blank" rel="noopener">📄 &nbsp;Paper (arXiv)</a>
+          <a class="btn btn-secondary" href="https://arxiv.org/pdf/2611.04867" target="_blank" rel="noopener">↓ &nbsp;PDF</a>
+          <a class="btn btn-secondary" href="https://github.com/Tencent/GroupAssistBench" target="_blank" rel="noopener">⌘ &nbsp;Code</a>
+          <a class="btn btn-secondary" href="#bibtex">❞ &nbsp;BibTeX</a>
+        </div>
+        <div class="hero-question">
+          <strong>Remembering is not the same as serving.</strong>
+          <p>Can an assistant that recalls a group's history actually use those memories to provide appropriate assistance to the whole group?</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+    <section class="content-section" id="overview">
+      <div class="container">
+        <div class="mini-label">01 / Overview</div>
+        <h2 class="section-title">A benchmark built from real-world group chats</h2>
+        <p class="section-lead">One assistant serves multiple members whose preferences, plans, and constraints evolve over time.</p>
+        <figure class="figure">
+          <img src="static/images/figure1_overview.png" alt="GroupAssistBench overview of real group-chat history and examples of memory recall versus memory use" width="1343" height="574" loading="eager" />
+          <figcaption>Overview of GroupAssistBench (Figure 1 in the paper). The figure uses the original artwork from the arXiv PDF.</figcaption>
+        </figure>
+        <div class="stats" aria-label="Benchmark statistics">
+          <div class="stat"><div class="stat-value">50</div><div class="stat-name">Real group chats</div></div>
+          <div class="stat"><div class="stat-value">80,299</div><div class="stat-name">Conversation messages</div></div>
+          <div class="stat"><div class="stat-value">2,395</div><div class="stat-name">Evaluation instances</div></div>
+          <div class="stat"><div class="stat-value">1,021</div><div class="stat-name">Open-ended service requests (L2)</div></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+    </section>
 
+    <section class="content-section section-muted" id="abstract">
+      <div class="container">
+        <h2 class="section-title">Abstract</h2>
+        <div class="prose">
+          <p>The value of memory lies not only in recall but in using it to provide appropriate assistance. Recent benchmarks test memory use in personalisation and agentic tasks, but seldom evaluate assistance without fixed answers or integration across multiple participants. Group chats make both challenges more acute: an assistant must integrate information from multiple members, track revisions and conflicts over time, and produce one response for the group. Yet existing group memory benchmarks rely on synthetic conversations and inherit constrained evaluation from general memory benchmarks, focusing on recall against fixed answers or decisions over a closed set. We introduce <strong>GroupAssistBench</strong>, the first memory benchmark from real-world group conversations with a deployed group assistant, covering 80,299 messages in 50 groups and costing over $53K. Over the same histories, GroupAssistBench evaluates memory recall (L1) with reference answers and memory use (L2) with service requests without fixed answers across single, distributed, and conflicting memories (M1–M3). Requests are verified to require group history, memories are anchored to their sources, and L2 uses tailored rubrics with penalties derived from real user feedback. Across evaluations of frontier models with full context, retrieval methods, and memory systems, the strongest memory system rivals full context on recall but falls far behind on use, especially for distributed and conflicting memories. Together, two additions that relate retrieved memories and bind remembered facts as response constraints bring consistent gains, showing that group memory systems must improve use, not recall alone.</p>
+        </div>
+      </div>
+    </section>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
+    <section class="content-section" id="benchmark">
+      <div class="container">
+        <div class="mini-label">02 / Benchmark Design</div>
+        <h2 class="section-title">Two task levels × three memory dependencies</h2>
+        <p class="section-lead"><strong>L1</strong> tests what a system remembers; <strong>L2</strong> tests whether it can use those memories to provide open-ended assistance. Both are evaluated across <strong>M1–M3</strong> dependency structures.</p>
+        <div class="taxonomy" aria-label="Benchmark instance counts by task and memory dependency">
+          <div class="tax-corner"></div>
+          <div class="tax-head">M1 <small>Single memory</small></div>
+          <div class="tax-head">M2 <small>Multiple memories</small></div>
+          <div class="tax-head">M3 <small>Conflicting memories</small></div>
+          <div class="tax-side">L1<small>Recall</small></div>
+          <div class="tax-cell"><div class="tax-count">776</div><div class="tax-caption">Recall one memory</div></div>
+          <div class="tax-cell"><div class="tax-count">448</div><div class="tax-caption">Integrate evidence</div></div>
+          <div class="tax-cell"><div class="tax-count">150</div><div class="tax-caption">Resolve an update</div></div>
+          <div class="tax-side l2">L2<small>Memory Use</small></div>
+          <div class="tax-cell l2"><div class="tax-count">221</div><div class="tax-caption">Apply one memory</div></div>
+          <div class="tax-cell l2"><div class="tax-count">650</div><div class="tax-caption">Serve the group</div></div>
+          <div class="tax-cell l2"><div class="tax-count">150</div><div class="tax-caption">Respect current decisions</div></div>
+        </div>
+        <div class="callout"><strong>What makes L2 different?</strong> It does not have a single gold response. A good answer must use the right memories, respect members' constraints, and avoid relying on superseded decisions. M1–M3 denote dependency types, not a guaranteed ordering of difficulty.</div>
+      </div>
+    </section>
+
+    <section class="content-section section-muted" id="construction">
+      <div class="container">
+        <div class="mini-label">03 / Construction & Evaluation</div>
+        <h2 class="section-title">Traceable, memory-grounded evaluation</h2>
+        <p class="section-lead">Each request is verified to require the history, linked to the source messages it depends on, and evaluated with a task-appropriate answer key.</p>
+        <div class="cards">
+          <div class="card"><div class="card-tag">STEP 1</div><h3>Verify history dependence</h3><p>Compare answers with and without conversation history; only requests that genuinely benefit from group memories are retained.</p></div>
+          <div class="card"><div class="card-tag">STEP 2</div><h3>Anchor required memories</h3><p>Connect each necessary memory to a verifiable span in an earlier message and enforce a history cutoff to avoid future leakage.</p></div>
+          <div class="card"><div class="card-tag">STEP 3</div><h3>Evaluate recall and use</h3><p>Score L1 with atomic reference facts; score L2 with grounding, service, and failure-penalty criteria tailored to each instance.</p></div>
+        </div>
+        <figure class="figure">
+          <img src="static/images/figure2_pipeline.png" alt="Benchmark construction pipeline from group chat to history dependence verification, memory anchors, item creation and quality control" width="1340" height="685" loading="lazy" />
+          <figcaption>Benchmark construction pipeline (Figure 2 in the paper).</figcaption>
+        </figure>
+        <div class="callout"><strong>Feedback-grounded rubrics.</strong> L2 criteria combine memory grounding, request-specific service requirements, and penalty patterns distilled from real users' corrections of the deployed assistant.</div>
+      </div>
+    </section>
+
+    <section class="content-section" id="results">
+      <div class="container">
+        <div class="mini-label">04 / Results</div>
+        <h2 class="section-title">Strong memory recall does not guarantee good assistance</h2>
+        <p class="section-lead">We evaluate 14 configurations spanning full-context LLMs, retrieval systems, and external memory systems. Here are representative results from Table 3.</p>
+        <div style="overflow-x:auto">
+          <table class="comparison">
+            <thead><tr><th>Method</th><th>Paradigm</th><th class="num">L1 Atom Recall ↑</th><th class="num">L2 Rubric Score ↑</th></tr></thead>
+            <tbody>
+              <tr><td><strong>DeepSeek-v4-flash</strong></td><td>Full Context</td><td class="num"><strong>0.669</strong></td><td class="num"><strong>0.469</strong></td></tr>
+              <tr class="selected"><td><strong>GPT-5.6-terra</strong></td><td>Full Context</td><td class="num">0.570</td><td class="num"><strong>0.431</strong></td></tr>
+              <tr><td>BM25</td><td>Retrieval</td><td class="num">0.539</td><td class="num">0.370</td></tr>
+              <tr><td>Dense Retrieval</td><td>Retrieval</td><td class="num">0.529</td><td class="num">0.362</td></tr>
+              <tr class="selected"><td><strong>EverMemOS</strong></td><td>External Memory</td><td class="num"><strong>0.621</strong></td><td class="num">0.247</td></tr>
+              <tr><td>xMemory</td><td>External Memory</td><td class="num">0.546</td><td class="num">0.203</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">Representative methods, not a complete leaderboard. All retrieval and external-memory methods use GPT-5.6-terra as task agent; the highlighted GPT-5.6-terra / EverMemOS comparison uses the same backbone. See Table 3 of the <a href="https://arxiv.org/pdf/2611.04867" target="_blank" rel="noopener">paper</a> for all 14 configurations and M1–M3 breakdowns.</p>
+        <div class="two-findings">
+          <div class="finding"><div class="number">0.621 &gt; 0.570</div><h3>Memory systems can outperform full context on recall</h3><p>EverMemOS exceeds matched full-context GPT-5.6-terra on L1 Atom Recall.</p></div>
+          <div class="finding"><div class="number">0.247 &lt; 0.431</div><h3>...but still fall far behind on memory use</h3><p>The same comparison reverses on L2 open-ended service quality.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-muted" id="insights">
+      <div class="container">
+        <div class="mini-label">05 / Key Finding</div>
+        <h2 class="section-title">Recalled ≠ used</h2>
+        <p class="section-lead">Tracking 497 paired memories across L1 and L2 reveals two different failure modes: missing evidence and failing to apply evidence already available.</p>
+        <figure class="figure">
+          <img src="static/images/figure4_recall_use.png" alt="Figure 4 showing the fate of 497 paired memories recalled at L1 and whether they were used at L2 across full context, retrieval and memory systems" width="1334" height="314" loading="lazy" />
+          <figcaption>Fate of paired memories from recall to use (Figure 4). U|R is the share of recalled memories subsequently used at L2.</figcaption>
+        </figure>
+        <div class="two-findings">
+          <div class="finding"><div class="number">36%</div><h3>Retrieval failure</h3><p>Among memories recalled at L1 but unused at L2 by memory systems, 36% never entered the L2 model input.</p></div>
+          <div class="finding"><div class="number">64%</div><h3>Application failure</h3><p>The other 64% reached the L2 input but were not used in the generated response.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="improvements">
+      <div class="container">
+        <div class="mini-label">06 / Toward Better Group Assistance</div>
+        <h2 class="section-title">Improve evidence retrieval and memory application</h2>
+        <p class="section-lead">We investigate two complementary additions that target the bottlenecks identified above.</p>
+        <div class="methods">
+          <div class="method"><small>RER</small><h3>Relational Evidence Refinement</h3><p>Organize related evidence across speakers and turns, follow connections, and recover supporting memories that the request does not explicitly name.</p></div>
+          <div class="method"><small>ACB</small><h3>Assistance Constraint Binding</h3><p>Determine a remembered fact's subject, scope, status, and applicability, then make the validated conditions constrain response generation.</p></div>
+        </div>
+        <figure class="figure">
+          <img src="static/images/figure5_interventions.png" alt="Figure 5 comparing gains from RER, ACB and their combination across xMemory EverMemOS and LightMem" width="1334" height="422" loading="lazy" />
+          <figcaption>Gains over baselines in percentage points, with 95% confidence intervals (Figure 5).</figcaption>
+        </figure>
+        <div class="gain-strip"><strong>RER + ACB improves L2</strong> across all three tested memory systems: xMemory <strong>+4.64 pp</strong> · EverMemOS <strong>+4.43 pp</strong> · LightMem <strong>+7.03 pp</strong>.</div>
+      </div>
+    </section>
+
+    <section class="content-section section-muted" id="availability">
+      <div class="container">
+        <h2 class="section-title">Code & Data Availability</h2>
+        <div class="availability">
+          <p><strong>Code repository:</strong> Visit <a href="https://github.com/Tencent/GroupAssistBench" target="_blank" rel="noopener">Tencent/GroupAssistBench on GitHub</a> for the project code and release updates. Availability of individual components and benchmark artifacts may change over time.</p>
+          <p><strong>Benchmark data:</strong> Any release of derived group-chat benchmark artefacts is subject to privacy and compliance review; please refer to the repository for the current release status.</p>
+          <p><strong>Privacy:</strong> The original source group-chat records remain restricted and will not be included in the public release. The research uses pseudonymized and rewritten conversations, with English translations prepared for the benchmark.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="bibtex">
+      <div class="container" style="max-width:920px">
+        <div class="bib-head">
+          <h2 class="section-title">BibTeX</h2>
+          <button class="copy-button" id="copy-bibtex" type="button" aria-label="Copy BibTeX">Copy BibTeX</button>
+        </div>
+        <pre id="bibtex-entry">@misc{hu2026groupassistbench,
+  title={One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough},
+  author={Hu, Zhanghao and Zhang, Linhai and Zhao, Qian and Zhu, Qi and Hua, Yuan and Liang, Di and Si, Jiasheng and Zhao, Xin and He, Yulan and Chen, Zhumin and Gui, Lin},
+  year={2026},
+  eprint={2611.04867},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2611.04867}
+}</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+      <p>GroupAssistBench · Tencent Yuanbao Team &amp; King's College London · 2026</p>
+      <p>Adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>, based on the <a href="https://nerfies.github.io/" target="_blank" rel="noopener">Nerfies</a> project page.</p>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+  </footer>
+  <script>
+    document.getElementById('copy-bibtex').addEventListener('click', async function () {
+      const text = document.getElementById('bibtex-entry').textContent;
+      const button = this;
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = 'Copied!';
+        setTimeout(() => { button.textContent = 'Copy BibTeX'; }, 1800);
+      } catch (err) {
+        button.textContent = 'Select the text below to copy';
+        setTimeout(() => { button.textContent = 'Copy BibTeX'; }, 2400);
+      }
+    });
+  </script>
+</body>
+</html>
